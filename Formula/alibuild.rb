@@ -86,7 +86,7 @@ class Alibuild < Formula
   end
 
   def install
-    virtualenv_install_with_resources using: "python@3"
+    virtualenv_install_with_resources using: "python@3.13"
     bin.install_symlink "#{libexec}/bin/aliBuild" => "aliBuild"
     bin.install_symlink "#{libexec}/bin/alienv" => "alienv"
   end
