@@ -38,7 +38,7 @@ class O2FullDeps < Formula
   depends_on "pkg-config"
   # We need to depend on whatever version brew selects by default when we run
   # "brew --prefix python"! As of Aug 2025, this is 3.13.
-  depends_on "python@3.11"
+  depends_on "python@3.13"
   depends_on "readline"
   depends_on "texinfo"
   depends_on "utf8proc"
